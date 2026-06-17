@@ -32,7 +32,7 @@ h1, h2, h3, p {
     margin: 0 auto;
 }
 .header {
-    padding-top: 40px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,43 @@ h1, h2, h3, p {
 .menu__container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo__container {
-    margin-right: 260px;
+    margin-right: 503px;
+}
+.logo__title {
+    color: var(--color-primary, #F1CDB3);
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+}
+.logo__subtitle {
+    color: var(--color-light-xl, #FFF);
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.menu__list a {
+
+}
+.menu__list a:hover {
+
+}
+.menu__list:last-child {
+    padding-right: 0;
+}
+.menu__list li{
+    display: inline-block;
 }
