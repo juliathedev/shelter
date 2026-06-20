@@ -64,35 +64,32 @@
         </section>
         <section class="pets" id="pets">
             <div class="container">
-                    <h2 class="pets__title">Our friends who are looking for a house</h2>
-                    <div class="slider">
-                        <div class="slider__buttons">
-                            <button class="slider__button slider__button--prev">
-                                <img src="assets/icons/button_arrow.png" alt="Previous">
-                            </button>
-                            <button class="slider__button slider__button--next">
-                                <img src="assets/icons/button_arrow.png" alt="Next">
-                            </button>
-                        </div>
+                <div class="pets__content">
+                    <h2 class="pets__title">Our friends who <br> are looking for a house</h2>
+                    <div class="pets__slider">
+                        <button class="pagination_btn pagination_btn--prev" type="button" aria-label="Previous"></button>
                         <div class="cards">
-                            <div class="card">
+                            <a href="#" class="card">
                                 <img src="assets/pets-katrine.png" alt="Cat 1" class="card__image">
                                 <p class="card__name">Katrine</p>
-                                <button class="btn btn__secondary btn__card">Learn more</button>
-                            </div>
-                            <div class="card">
+                                <span class="btn btn__secondary">Learn more</span>
+                            </a>
+                            <a href="#" class="card">
                                 <img src="assets/pets-jennifer.png" alt="Dog 1" class="card__image">
                                 <p class="card__name">Jennifer</p>
-                                <button class="btn btn__secondary btn__card">Learn more</button>
-                            </div>
-                            <div class="card">
+                                <span class="btn btn__secondary">Learn more</span>
+                            </a>
+                            <a href="#" class="card">
                                 <img src="assets/pets-woody.png" alt="Dog 2" class="card__image">
                                 <p class="card__name">Woody</p>
-                                <button class="btn btn__secondary btn__card">Learn more</button>
-                            </div>
+                                <span class="btn btn__secondary">Learn more</span>
+                            </a>
                         </div>
+                        
+                        <button class="pagination_btn pagination_btn--next" type="button" aria-label="Next"></button>
                     </div>
-                    <button class="btn btn__primary">Get to know the rest</button>
+                    <a class="btn btn__primary" href="pets.html">Get to know the rest</a>
+                </div>
             </div>
         </section>
         <section class="help" id="help">
