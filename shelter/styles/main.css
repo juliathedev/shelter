@@ -305,26 +305,14 @@ a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease-in, border-color 0.3s ease-in, color 0.3s ease-in;
 }
-.pagination_btn:hover:not(:disabled) {
-    border-color: var(--color-dark-s);
-}
 .pagination_btn:disabled {
     border-color: var(--color-dark-s);
     color: var(--color-dark-s);
     cursor: default;
 }
-
-.pagination_btn--prev {
-    background-image: url("../assets/icons/Arrow.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    transform: rotate(360deg);
-}
-.pagination_btn--next {
-    background-image: url("../assets/icons/Arrow.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    transform: rotate(180deg);
+.pagination_btn:hover:not(:disabled) {
+    color: var(--color-dark-s);
+    border-color: var(--color-dark-s);
 }
 .btn__secondary {
     display: flex;
