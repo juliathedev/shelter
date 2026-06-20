@@ -338,14 +338,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-/* .help__content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1040px;
-    width: 100%;
-    margin: 55px auto 0;
-} */
 .help__title {
     text-align: center;
     margin: 0 auto;
