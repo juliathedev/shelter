@@ -471,7 +471,7 @@ a:hover {
     width: 302px;
     padding-top: 16px;
 }
-.contact__list {
+.footer__list {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -502,5 +502,5 @@ footer_column-locations {
     transition: color 0.3s ease-in;
 }
 .footer_link:hover {
-    color: var(--color-primary-light);
+    color: var(--color-light-s);
 }
