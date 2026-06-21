@@ -23,6 +23,17 @@
                                 <li><a href="#help">Help the shelter</a></li>
                                 <li><a href="#contacts">Contacts</a></li>
                             </ul>
+                            <button class="burger" type="button" aria-label="Open menu">
+                                <span class="burger_line">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                        <line x1="24" y1="30" x2="24" stroke="#F1CDB3" stroke-width="2"/>
+                                        <line x1="14" y1="30" x2="14" stroke="#F1CDB3" stroke-width="2"/>
+                                        <line x1="4" y1="30" x2="4" stroke="#F1CDB3" stroke-width="2"/>
+                                    </svg>
+                                </span>
+                                <span class="burger_line"></span>
+                                <span class="burger_line"></span>
+                            </button>
                         </div>
                     </nav>
                 </div>
@@ -66,34 +77,36 @@
             <div class="container">
                 <div class="pets__content">
                     <h2 class="pets__title">Our friends who <br> are looking for a house</h2>
-                    <div class="pets__slider">
-                        <button class="pagination_btn pagination_btn--prev" type="button" aria-label="Previous">
-                            <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="currentColor"/>
-                            </svg>
-                        </button>
-                        <div class="cards">
-                            <a href="#" class="card">
-                                <img src="assets/pets-katrine.png" alt="Cat 1" class="card__image">
-                                <p class="card__name">Katrine</p>
-                                <span class="btn btn__secondary">Learn more</span>
-                            </a>
-                            <a href="#" class="card">
-                                <img src="assets/pets-jennifer.png" alt="Dog 1" class="card__image">
-                                <p class="card__name">Jennifer</p>
-                                <span class="btn btn__secondary">Learn more</span>
-                            </a>
-                            <a href="#" class="card">
-                                <img src="assets/pets-woody.png" alt="Dog 2" class="card__image">
-                                <p class="card__name">Woody</p>
-                                <span class="btn btn__secondary">Learn more</span>
-                            </a>
-                        </div> 
-                        <button class="pagination_btn pagination_btn--next" type="button" aria-label="Next">
-                            <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
-                                <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="currentColor"/>
-                            </svg>
-                        </button>
+                    <div class="pets__slider-wrapper">
+                        <div class="pets__slider">
+                            <button class="pagination_btn pagination_btn--prev" type="button" aria-label="Previous">
+                                <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                            <div class="cards">
+                                <a href="#" class="card">
+                                    <img src="assets/pets-katrine.png" alt="Cat 1" class="card__image">
+                                    <p class="card__name">Katrine</p>
+                                    <span class="btn btn__secondary">Learn more</span>
+                                </a>
+                                <a href="#" class="card">
+                                    <img src="assets/pets-jennifer.png" alt="Dog 1" class="card__image">
+                                    <p class="card__name">Jennifer</p>
+                                    <span class="btn btn__secondary">Learn more</span>
+                                </a>
+                                <a href="#" class="card">
+                                    <img src="assets/pets-woody.png" alt="Dog 2" class="card__image">
+                                    <p class="card__name">Woody</p>
+                                    <span class="btn btn__secondary">Learn more</span>
+                                </a>
+                            </div> 
+                            <button class="pagination_btn pagination_btn--next" type="button" aria-label="Next">
+                                <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+                                    <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                     <a class="btn btn__primary" href="pets.html">Get to know the rest</a>
                 </div>
