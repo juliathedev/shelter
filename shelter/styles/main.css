@@ -686,6 +686,8 @@ a:hover {
     }
     .pets-cards {
         grid-template-columns: repeat(2, 1fr);
+        max-width: 708px;
+        padding: 0 64px;
     }
     .donation {
         padding-right: 0;
@@ -721,5 +723,8 @@ a:hover {
         min-height: 639px;
         margin: 0 auto;
         padding: 40px 30px 0;
+    }
+    .pets__content {
+        gap: 40px;
     }
 }
