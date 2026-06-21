@@ -513,3 +513,45 @@ a:hover {
     flex-shrink: 0;
     display: block; 
 }
+.logo__title-pets {
+    color: var(--color-dark-l, #545454);
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+    padding-bottom: 10px;
+}
+.logo__subtitle-pets {
+    color: var(--color-dark-3xl, #292929);
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+.menu__list-pets {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 36px;
+    color: var(--color-dark-l, #545454);
+}
+.menu__list-pets a {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--color-dark-l, #545454);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: color 0.3s;
+    font-family: Arial;
+}
+.menu__list-pets a:hover {
+    color: var(--color-dark-3xl);
+    cursor: pointer;
+}
